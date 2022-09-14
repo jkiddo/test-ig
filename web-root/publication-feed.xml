@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:fhir="http://hl7.org/fhir/feed" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>HL7 Denmark FHIR Publications</title>
+    <description>New publications by HL7 Denmark></description>
+    <link>http://hl7.dk/fhir/core/package-feed.xml</link>
+    <generator>HL7, Inc FHIR Publication tooling</generator>
+    <lastBuildDate>Wed, 14 Sep 2022 01:38:44 GMT</lastBuildDate>
+    <atom:link href="http://hl7.dk/fhir/core/package-feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 14 Sep 2022 01:38:44</pubDate>
+    <language>en></language>
+    <ttl>600</ttl>
+    <item>
+      <title>HL7 FHIR Implementation Guide: DK Core</title>
+      <description>Release version 2.0.0 contains three DKcore profiles. In DkCorePatient the cardinality of the extensions dk-core-RegionalSubDivisionCodes and dk-core-municipalityCodes is changed from 0..* to 0..1 and the MustSupport flags are removed from Patient.id and Patient.name. DkCoreCprIdentifier.system is changed from a ValueSet to a fixed value, where both solutions contain the same OID. In DkCoreOrganization the binding strength of the ValueSet attached to the element Organization.type is changed from required to preferred.</description>
+      <link>http://hl7.dk/fhir/core/2.0.0/index.html</link>
+      <guid isPermaLink="true">http://hl7.dk/fhir/core/2.0.0/index.html</guid>
+      <dc:creator>HL7 Denmark</dc:creator>
+      <fhir:version>4.0.1</fhir:version>
+      <fhir:kind>IG</fhir:kind>
+      <pubDate>Wed, 14 Sep 2022 12:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>HL7 FHIR Implementation Guide: DK Core</title>
+      <description>Release version 1.1.0 contains three DK core profiles. The Danish Core Practitioner and Organization profiles are both introduced in this release, and the Danish Core Patient profile has been updated with some minor changes. These updates include 1) change of the minimum allowed length from 15 to 11 units in the element for the SOR-identifier Patient.generalPractitioner:referencesSORUnit.identifier, 2) removal of the fixed value 'NNDNK' in the element Patient.identifier.type.coding.code, and 3) change of the invariant expression for validation of a CPR.</description>
+      <link>http://hl7.dk/fhir/core/1.1.0/index.html</link>
+      <guid isPermaLink="true">http://hl7.dk/fhir/core/1.1.0/index.html</guid>
+      <dc:creator>HL7 Denmark</dc:creator>
+      <fhir:version>4.0.1</fhir:version>
+      <fhir:kind>IG</fhir:kind>
+      <pubDate>Sat, 18 Dec 2021 12:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

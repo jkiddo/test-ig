@@ -1,0 +1,19 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "856d37e0-8dbf-43d7-8b0c-7b7ca230256e-24",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/856d37e0-8dbf-43d7-8b0c-7b7ca230256e-24",
+  "name" : "IntersectionDkCoreCprIdentifierSystemAndDkCoreCprIdentifierSystem",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2022-09-14T15:03:36+02:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "DK",
+      "display" : "Denmark"
+    }]
+  }],
+  "concept" : [{
+    "code" : "urn:oid:1.2.208.176.1.2"
+  }]
+}

@@ -1,0 +1,1367 @@
+All checks passed. Do the publication builds
+Prepare Build space in temp/hl7.fhir.dk.core#2.0.0
+Build IG at /Users/jkiddo/work/igs/dk-core: final copy suitable for publication (in /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0)
+FHIR IG Publisher Version 1.2.1 (Git# f88f1853dba2). Built 2022-09-12T19:20:41.460Z (40 hours old)
+Detected Java version: 18.0.2.1 from /Users/jkiddo/Library/Java/JavaVirtualMachines/temurin-18.0.2.1/Contents/Home on Mac OS X/x86_64 (64bit). 8192MB available
+dir = /Users/jkiddo/work/igs, path = /Users/jkiddo/.gem/ruby/3.1.2/bin:/Users/jkiddo/.rubies/ruby-3.1.2/lib/ruby/gems/3.1.0/bin:/Users/jkiddo/.rubies/ruby-3.1.2/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+Parameters: -ig /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0 -resetTx -publish http://hl7.dk/fhir/core/2.0.0 -no-exit
+Start Clock @ Wednesday, 14 September 2022 at 13.32.09 Central European Summer Time (2022-09-14T13:32:09+02:00)
+
+Build Formal Publication package, intended for http://hl7.dk/fhir/core/2.0.0     (00:00.023)
+API keys loaded from /Users/jkiddo/fhir-api-keys.ini                             (00:00.034)
+Package Cache: /Users/jkiddo/.fhir/packages                                      (00:00.037)
+Run Sushi on /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0                  (00:00.038)
+Sushi: info  Running SUSHI v2.6.1 (implements FHIR Shorthand specification v2.0.0) (00:06.440)
+Sushi: info  Arguments:                                                          (00:06.443)
+Sushi: info    --out /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0          (00:06.446)
+Sushi: info    /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0                (00:06.449)
+Sushi: (node:77869) Warning: Accessing non-existent property 'INVALID_ALT_NUMBER' of module exports inside circular dependency (00:11.179)
+Sushi: (Use `node --trace-warnings ...` to show where the warning was created)   (00:11.183)
+Sushi: (node:77869) Warning: Accessing non-existent property 'INVALID_ALT_NUMBER' of module exports inside circular dependency (00:11.185)
+Sushi: info  Using configuration file: /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0/sushi-config.yaml (00:11.209)
+Sushi: info  Importing FSH text...                                               (00:11.216)
+Sushi: info  Preprocessed 33 documents with 11 aliases.                          (00:11.287)
+Sushi: info  Imported 18 definitions and 20 instances.                           (00:11.299)
+Sushi: info  Checking local cache for hl7.fhir.r4.core#4.0.1...                  (00:11.299)
+Sushi: info  Found hl7.fhir.r4.core#4.0.1 in local cache.                        (00:30.873)
+Sushi: info  Loaded package hl7.fhir.r4.core#4.0.1                               (00:30.878)
+Sushi: info  Converting FSH to FHIR resources...                                 (00:30.949)
+Sushi: info  Converted 12 FHIR StructureDefinitions.                             (00:31.227)
+Sushi: info  Converted 2 FHIR CodeSystems.                                       (00:31.259)
+Sushi: info  Converted 4 FHIR ValueSets.                                         (00:31.334)
+Sushi: info  Converted 20 FHIR instances.                                        (00:31.570)
+Sushi: info  Exporting FHIR resources as JSON...                                 (00:31.571)
+Sushi: info  Exported 38 FHIR resources as JSON.                                 (00:31.583)
+Sushi: info  Assembling Implementation Guide sources...                          (00:31.584)
+Sushi: info  Generated ImplementationGuide-hl7.fhir.dk.core.json                 (00:31.612)
+Sushi: info  Assembled Implementation Guide sources; ready for IG Publisher.     (00:31.613)
+Sushi:                                                                           (00:31.613)
+Sushi: ========================= SUSHI RESULTS ===========================       (00:31.614)
+Sushi: |  -------------------------------------------------------------  |       (00:31.615)
+Sushi: | |    Profiles   |  Extensions  |   Logicals   |   Resources   | |       (00:31.616)
+Sushi: | |-------------------------------------------------------------| |       (00:31.617)
+Sushi: | |      10       |      2       |      0       |       0       | |       (00:31.618)
+Sushi: |  -------------------------------------------------------------  |       (00:31.619)
+Sushi: |  -------------------------------------------------------------  |       (00:31.620)
+Sushi: | |      ValueSets     |    CodeSystems    |     Instances      | |       (00:31.620)
+Sushi: | |-------------------------------------------------------------| |       (00:31.621)
+Sushi: | |         4          |         2         |         20         | |       (00:31.621)
+Sushi: |  -------------------------------------------------------------  |       (00:31.622)
+Sushi: |                                                                 |       (00:31.622)
+Sushi: ===================================================================       (00:31.623)
+Sushi: | You're piranha roll now!               0 Errors      0 Warnings |       (00:31.623)
+Sushi: ===================================================================       (00:31.624)
+Sushi:                                                                           (00:31.624)
+Unable to load IG as an r5 IG - try R4 (property code is a class com.google.gson.JsonPrimitive looking for an object) (00:32.055)
+Load Template from https://github.com/hl7dk/dk-ig-template                       (00:32.469)
+ Load Template from fhir.base.template#current                                   (00:34.111)
+
+onLoad.findSpreadsheets:
+
+onLoad.updateIg:
+     [xslt] Processing /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0/template/onLoad-ig-working.xml to /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0/template/onLoad-ig-updated.xml
+     [xslt] Loading stylesheet /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0/template/scripts/onLoad.xslt
+
+onLoad.extend:
+
+onLoad:
+Root directory: /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0               (00:38.774)
+Core Package hl7.fhir.r4.core#4.0.1
+Terminology Cache is at /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0/input-cache/txcache. Clearing now (00:45.699)
+Connect to Terminology Server at http://tx.fhir.org                              (00:45.710)
+Load Package hl7.fhir.pubpack#0.1.1
+Load Package hl7.fhir.xver-extensions#0.0.11
+Load Package hl7.terminology.r4#3.1.0
+Load R5 Extensions - 93 resources (01:06.955)
+Initialization complete                                                          (01:07.288)
+Fetch http://hl7.dk/fhir/core/package-list.json for version check                (01:07.292)
+Load Content                                                                     (01:07.878)
+loadPrePages from FetchedFile[/Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0/fsh-generated/includes] as /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0/fsh-generated/includes
+loadPrePages from FetchedFile[/Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0/input/pagecontent] as /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0/input/pagecontent
+Processing Conformance Resources                                                 (01:08.433)
+Generating Snapshots                                                             (01:08.700)
+Propagating status                                                               (01:09.298)
+Generating Narratives                                                            (01:09.301)
+Validating Conformance Resources                                                 (01:39.543)
+Validating Resources                                                             (01:49.683)
+Processing Provenance Records                                                    (01:50.060)
+Generating Outputs in /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0/output  (01:50.064)
+Run Template                                                                     (01:50.672)
+
+onGenerate.checkVersions:
+     [xslt] Processing /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0/template/onGenerate-ig-working.xml to /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0/template/versions.txt
+     [xslt] Loading stylesheet /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0/template/scripts/onGenerate.getVersions.xslt
+
+onGenerate.r5-schemas:
+      [get] Getting: http://build.fhir.org/fhir-single.xsd
+      [get] To: /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0/input-cache/schemas/R5/fhir-single.xsd
+      [get] Getting: http://build.fhir.org/fhir-xhtml.xsd
+      [get] To: /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0/input-cache/schemas/R5/fhir-xhtml.xsd
+      [get] Getting: http://build.fhir.org/xml.xsd
+      [get] To: /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0/input-cache/schemas/R5/xml.xsd
+      [get] Getting: http://build.fhir.org/xmldsig-core-schema.xsd
+      [get] To: /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0/input-cache/schemas/R5/xmldsig-core-schema.xsd
+
+onGenerate.r4-schemas:
+      [get] Getting: http://hl7.org/fhir/R4/fhir-single.xsd
+      [get] To: /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0/input-cache/schemas/R4/fhir-single.xsd
+      [get] Not modified - so not downloaded
+      [get] Getting: http://hl7.org/fhir/R4/fhir-xhtml.xsd
+      [get] To: /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0/input-cache/schemas/R4/fhir-xhtml.xsd
+      [get] Not modified - so not downloaded
+      [get] Getting: http://hl7.org/fhir/R4/xml.xsd
+      [get] To: /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0/input-cache/schemas/R4/xml.xsd
+      [get] Not modified - so not downloaded
+      [get] Getting: http://hl7.org/fhir/R4/xmldsig-core-schema.xsd
+      [get] To: /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0/input-cache/schemas/R4/xmldsig-core-schema.xsd
+      [get] Not modified - so not downloaded
+
+onGenerate.r3-schemas:
+
+onGenerate.r2b-schemas:
+
+onGenerate.r2-schemas:
+
+onGenerate.schemas:
+
+onGenerate.data:
+     [xslt] Processing /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0/template/onGenerate-ig-working.xml to /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0/temp/pages/_data/artifacts.json
+     [xslt] Loading stylesheet /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0/template/scripts/onGenerate.data.xslt
+
+onGenerate.setup:
+
+onGenerate.infoFile:
+     [xslt] Processing /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0/template/onGenerate-ig-working.xml to /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0/temp/pages/_data/info.json
+     [xslt] Loading stylesheet /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0/template/scripts/onGenerate.genJson.xslt
+
+onGenerate.processIncludes:
+     [copy] Copying 17 files to /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0/temp/pages/_includes
+
+onGenerate.processIg:
+     [xslt] Processing /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0/template/onGenerate-ig-working.xml to /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0/template/onGenerate-ig-working.1.xml
+     [xslt] Loading stylesheet /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0/template/scripts/onGenerate.group.xslt
+     [xslt] Processing /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0/template/onGenerate-ig-working.1.xml to /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0/template/onGenerate-ig-updated.xml
+     [xslt] Loading stylesheet /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0/template/scripts/onGenerate.final.xslt
+
+onGenerate.igQa:
+     [xslt] Processing /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0/template/onGenerate-ig-updated.xml to /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0/template/ongenerate-validation-igqa.json
+     [xslt] Loading stylesheet /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0/template/scripts/onGenerate.qa.xslt
+
+onGenerate.artifactList:
+     [xslt] Processing /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0/template/onGenerate-ig-updated.xml to /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0/temp/pages/_includes/artifacts.xml
+     [xslt] Loading stylesheet /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0/template/scripts/createArtifactSummary.xslt
+
+check-plantumlfiles:
+
+onGenerate.plantUml.ig:
+
+onGenerate.plantUml.template:
+
+onGenerate.plantUml:
+
+onGenerate.copyDataFiles:
+
+onGenerate.extend:
+
+onGenerate:
+Template Done                                                                    (02:02.837)
+Generating Summary Outputs                                                       (02:18.247)
+Sending Usage Stats to Server                                                    (03:42.825)
+## Memory (MB): Use = 661, Free = 710, Total = 1372, Max =8192
+Reclaiming memory...
+## Memory (MB): Use = 451, Free = 920, Total = 1372, Max =8192
+Run jekyll: jekyll build --destination "/Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0/output" (in folder /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0/temp/pages) (03:45.306)
+Jekyll: Source: /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0/temp/pages    (03:50.294)
+Jekyll: Generating...                                                            (03:50.298)
+Jekyll: done in 4.231 seconds.                                                   (03:54.526)
+Installing hl7.fhir.dk.core#2.0.0 to the package cache
+  Fetching:
+.
+  Installing: Checking Output HTML                                                             (03:55.376)
+found 969 files                                                                  (03:55.382)
+........................................
+........................................
+  ... 969 html files, 0 pages invalid xhtml (0%)                                 (04:05.077)
+  ... 68480 links, 0 broken links (0%)                                           (04:05.082)
+Build final .zip                                                                 (04:05.083)
+Final .zip built                                                                 (04:06.104)
+Built. Times: loading: 00:00.553, generate: 02:59.620, narrative generation: 00:30.241, realm-rules: 00:00.000, previous-version: 00:07.510, jekyll: 00:09.224, validation: 00:02.957 (#48), template: 00:12.163 (#3) (04:08.057)
+Validation output in /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0/output/qa.html
+Errors: 0, Warnings: 3, Info: 4, Broken Links: 0 (04:08.506)
+Finished                                                                         (04:08.517)
+Done                                                                             (04:08.518)
+Prepare Build space in temp/hl7.fhir.dk.core#2.0.0-milestone
+Build IG at /Users/jkiddo/work/igs/dk-core: final copy suitable for publication (in /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0-milestone) (milestone build)
+FHIR IG Publisher Version 1.2.1 (Git# f88f1853dba2). Built 2022-09-12T19:20:41.460Z (40 hours old)
+Detected Java version: 18.0.2.1 from /Users/jkiddo/Library/Java/JavaVirtualMachines/temurin-18.0.2.1/Contents/Home on Mac OS X/x86_64 (64bit). 8192MB available
+dir = /Users/jkiddo/work/igs, path = /Users/jkiddo/.gem/ruby/3.1.2/bin:/Users/jkiddo/.rubies/ruby-3.1.2/lib/ruby/gems/3.1.0/bin:/Users/jkiddo/.rubies/ruby-3.1.2/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+Parameters: -ig /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0-milestone -publish http://hl7.dk/fhir/core/2.0.0 -milestone -no-exit
+Start Clock @ Wednesday, 14 September 2022 at 13.36.28 Central European Summer Time (2022-09-14T13:36:28+02:00)
+
+Build Formal Publication package, intended for http://hl7.dk/fhir/core/2.0.0     (00:00.027)
+API keys loaded from /Users/jkiddo/fhir-api-keys.ini                             (00:00.040)
+Package Cache: /Users/jkiddo/.fhir/packages                                      (00:00.041)
+Run Sushi on /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0-milestone        (00:00.042)
+Sushi: info  Running SUSHI v2.6.1 (implements FHIR Shorthand specification v2.0.0) (00:04.626)
+Sushi: info  Arguments:                                                          (00:04.628)
+Sushi: info    --out /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0-milestone (00:04.632)
+Sushi: info    /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0-milestone      (00:04.636)
+Sushi: (node:78547) Warning: Accessing non-existent property 'INVALID_ALT_NUMBER' of module exports inside circular dependency (00:06.705)
+Sushi: (Use `node --trace-warnings ...` to show where the warning was created)   (00:06.707)
+Sushi: (node:78547) Warning: Accessing non-existent property 'INVALID_ALT_NUMBER' of module exports inside circular dependency (00:06.709)
+Sushi: info  Using configuration file: /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0-milestone/sushi-config.yaml (00:06.742)
+Sushi: info  Importing FSH text...                                               (00:06.753)
+Sushi: info  Preprocessed 33 documents with 11 aliases.                          (00:06.829)
+Sushi: info  Imported 18 definitions and 20 instances.                           (00:06.840)
+Sushi: info  Checking local cache for hl7.fhir.r4.core#4.0.1...                  (00:06.841)
+Sushi: info  Found hl7.fhir.r4.core#4.0.1 in local cache.                        (00:15.657)
+Sushi: info  Loaded package hl7.fhir.r4.core#4.0.1                               (00:15.661)
+Sushi: info  Converting FSH to FHIR resources...                                 (00:15.771)
+Sushi: info  Converted 12 FHIR StructureDefinitions.                             (00:16.047)
+Sushi: info  Converted 2 FHIR CodeSystems.                                       (00:16.080)
+Sushi: info  Converted 4 FHIR ValueSets.                                         (00:16.164)
+Sushi: info  Converted 20 FHIR instances.                                        (00:16.376)
+Sushi: info  Exporting FHIR resources as JSON...                                 (00:16.377)
+Sushi: info  Exported 38 FHIR resources as JSON.                                 (00:16.388)
+Sushi: info  Assembling Implementation Guide sources...                          (00:16.388)
+Sushi: info  Generated ImplementationGuide-hl7.fhir.dk.core.json                 (00:16.401)
+Sushi: info  Assembled Implementation Guide sources; ready for IG Publisher.     (00:16.402)
+Sushi:                                                                           (00:16.403)
+Sushi: ========================= SUSHI RESULTS ===========================       (00:16.403)
+Sushi: |  -------------------------------------------------------------  |       (00:16.406)
+Sushi: | |    Profiles   |  Extensions  |   Logicals   |   Resources   | |       (00:16.406)
+Sushi: | |-------------------------------------------------------------| |       (00:16.407)
+Sushi: | |      10       |      2       |      0       |       0       | |       (00:16.408)
+Sushi: |  -------------------------------------------------------------  |       (00:16.408)
+Sushi: |  -------------------------------------------------------------  |       (00:16.409)
+Sushi: | |      ValueSets     |    CodeSystems    |     Instances      | |       (00:16.409)
+Sushi: | |-------------------------------------------------------------| |       (00:16.410)
+Sushi: | |         4          |         2         |         20         | |       (00:16.411)
+Sushi: |  -------------------------------------------------------------  |       (00:16.411)
+Sushi: |                                                                 |       (00:16.412)
+Sushi: ===================================================================       (00:16.413)
+Sushi: | You swim with the sharks!              0 Errors      0 Warnings |       (00:16.413)
+Sushi: ===================================================================       (00:16.414)
+Sushi:                                                                           (00:16.414)
+Unable to load IG as an r5 IG - try R4 (property code is a class com.google.gson.JsonPrimitive looking for an object) (00:16.454)
+Load Template from https://github.com/hl7dk/dk-ig-template                       (00:16.488)
+ Load Template from fhir.base.template#current                                   (00:17.505)
+
+onLoad.findSpreadsheets:
+
+onLoad.updateIg:
+     [xslt] Processing /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0-milestone/template/onLoad-ig-working.xml to /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0-milestone/template/onLoad-ig-updated.xml
+     [xslt] Loading stylesheet /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0-milestone/template/scripts/onLoad.xslt
+
+onLoad.extend:
+
+onLoad:
+Root directory: /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0-milestone     (00:21.206)
+Core Package hl7.fhir.r4.core#4.0.1
+Terminology Cache is at /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0-milestone/input-cache/txcache. 4 files in cache (00:24.964)
+Connect to Terminology Server at http://tx.fhir.org                              (00:24.972)
+Load Package hl7.fhir.pubpack#0.1.1
+Load Package hl7.fhir.xver-extensions#0.0.11
+Load Package hl7.terminology.r4#3.1.0
+Load R5 Extensions - 93 resources (00:36.524)
+Initialization complete                                                          (00:36.628)
+Fetch http://hl7.dk/fhir/core/package-list.json for version check                (00:36.630)
+Load Content                                                                     (00:36.798)
+loadPrePages from FetchedFile[/Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0-milestone/fsh-generated/includes] as /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0-milestone/fsh-generated/includes
+loadPrePages from FetchedFile[/Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0-milestone/input/pagecontent] as /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0-milestone/input/pagecontent
+Processing Conformance Resources                                                 (00:37.058)
+Generating Snapshots                                                             (00:37.247)
+Propagating status                                                               (00:37.502)
+Generating Narratives                                                            (00:37.502)
+Validating Conformance Resources                                                 (00:56.735)
+Validating Resources                                                             (01:08.563)
+Processing Provenance Records                                                    (01:11.677)
+Generating Outputs in /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0-milestone/output (01:11.680)
+Run Template                                                                     (01:12.061)
+
+onGenerate.checkVersions:
+     [xslt] Processing /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0-milestone/template/onGenerate-ig-working.xml to /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0-milestone/template/versions.txt
+     [xslt] Loading stylesheet /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0-milestone/template/scripts/onGenerate.getVersions.xslt
+
+onGenerate.r5-schemas:
+      [get] Getting: http://build.fhir.org/fhir-single.xsd
+      [get] To: /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0-milestone/input-cache/schemas/R5/fhir-single.xsd
+      [get] Not modified - so not downloaded
+      [get] Getting: http://build.fhir.org/fhir-xhtml.xsd
+      [get] To: /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0-milestone/input-cache/schemas/R5/fhir-xhtml.xsd
+      [get] Not modified - so not downloaded
+      [get] Getting: http://build.fhir.org/xml.xsd
+      [get] To: /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0-milestone/input-cache/schemas/R5/xml.xsd
+      [get] Not modified - so not downloaded
+      [get] Getting: http://build.fhir.org/xmldsig-core-schema.xsd
+      [get] To: /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0-milestone/input-cache/schemas/R5/xmldsig-core-schema.xsd
+      [get] Not modified - so not downloaded
+
+onGenerate.r4-schemas:
+      [get] Getting: http://hl7.org/fhir/R4/fhir-single.xsd
+      [get] To: /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0-milestone/input-cache/schemas/R4/fhir-single.xsd
+      [get] Not modified - so not downloaded
+      [get] Getting: http://hl7.org/fhir/R4/fhir-xhtml.xsd
+      [get] To: /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0-milestone/input-cache/schemas/R4/fhir-xhtml.xsd
+      [get] Not modified - so not downloaded
+      [get] Getting: http://hl7.org/fhir/R4/xml.xsd
+      [get] To: /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0-milestone/input-cache/schemas/R4/xml.xsd
+      [get] Not modified - so not downloaded
+      [get] Getting: http://hl7.org/fhir/R4/xmldsig-core-schema.xsd
+      [get] To: /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0-milestone/input-cache/schemas/R4/xmldsig-core-schema.xsd
+      [get] Not modified - so not downloaded
+
+onGenerate.r3-schemas:
+
+onGenerate.r2b-schemas:
+
+onGenerate.r2-schemas:
+
+onGenerate.schemas:
+
+onGenerate.data:
+     [xslt] Processing /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0-milestone/template/onGenerate-ig-working.xml to /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0-milestone/temp/pages/_data/artifacts.json
+     [xslt] Loading stylesheet /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0-milestone/template/scripts/onGenerate.data.xslt
+
+onGenerate.setup:
+
+onGenerate.infoFile:
+     [xslt] Processing /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0-milestone/template/onGenerate-ig-working.xml to /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0-milestone/temp/pages/_data/info.json
+     [xslt] Loading stylesheet /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0-milestone/template/scripts/onGenerate.genJson.xslt
+
+onGenerate.processIncludes:
+     [copy] Copying 17 files to /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0-milestone/temp/pages/_includes
+
+onGenerate.processIg:
+     [xslt] Processing /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0-milestone/template/onGenerate-ig-working.xml to /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0-milestone/template/onGenerate-ig-working.1.xml
+     [xslt] Loading stylesheet /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0-milestone/template/scripts/onGenerate.group.xslt
+     [xslt] Processing /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0-milestone/template/onGenerate-ig-working.1.xml to /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0-milestone/template/onGenerate-ig-updated.xml
+     [xslt] Loading stylesheet /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0-milestone/template/scripts/onGenerate.final.xslt
+
+onGenerate.igQa:
+     [xslt] Processing /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0-milestone/template/onGenerate-ig-updated.xml to /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0-milestone/template/ongenerate-validation-igqa.json
+     [xslt] Loading stylesheet /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0-milestone/template/scripts/onGenerate.qa.xslt
+
+onGenerate.artifactList:
+     [xslt] Processing /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0-milestone/template/onGenerate-ig-updated.xml to /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0-milestone/temp/pages/_includes/artifacts.xml
+     [xslt] Loading stylesheet /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0-milestone/template/scripts/createArtifactSummary.xslt
+
+check-plantumlfiles:
+
+onGenerate.plantUml.ig:
+
+onGenerate.plantUml.template:
+
+onGenerate.plantUml:
+
+onGenerate.copyDataFiles:
+
+onGenerate.extend:
+
+onGenerate:
+Template Done                                                                    (01:14.440)
+Generating Summary Outputs                                                       (01:23.731)
+Sending Usage Stats to Server                                                    (01:27.742)
+## Memory (MB): Use = 870, Free = 865, Total = 1736, Max =8192
+Reclaiming memory...
+## Memory (MB): Use = 452, Free = 1123, Total = 1576, Max =8192
+Run jekyll: jekyll build --destination "/Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0-milestone/output" (in folder /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0-milestone/temp/pages) (01:29.280)
+Jekyll: Source: /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0-milestone/temp/pages (01:32.204)
+Jekyll: Generating...                                                            (01:32.205)
+Jekyll: done in 3.402 seconds.                                                   (01:35.606)
+Installing hl7.fhir.dk.core#2.0.0 to the package cache
+  Fetching:
+.
+  Installing: Checking Output HTML                                                             (01:36.555)
+found 969 files                                                                  (01:36.567)
+........................................
+........................................
+  ... 969 html files, 0 pages invalid xhtml (0%)                                 (01:45.685)
+  ... 68480 links, 0 broken links (0%)                                           (01:45.690)
+Build final .zip                                                                 (01:45.691)
+Final .zip built                                                                 (01:47.111)
+Built. Times: loading: 00:00.258, generate: 01:11.738, narrative generation: 00:19.231, realm-rules: 00:00.000, previous-version: 00:05.137, jekyll: 00:06.330, validation: 00:09.737 (#48), template: 00:02.377 (#3) (01:48.821)
+Validation output in /Users/jkiddo/work/igs/temp/hl7.fhir.dk.core#2.0.0-milestone/output/qa.html
+Errors: 0, Warnings: 3, Info: 4, Broken Links: 0 (01:49.008)
+Finished                                                                         (01:49.015)
+Done                                                                             (01:49.015)
+Keep a copy of the build directory at /Users/jkiddo/work/igs/web-root/ig-build-zips/hl7.fhir.dk.core#2.0.0.zip
+
+ok. All checks passed. Publish v2.0.0 to web-root/core/2.0.0
+Copy the IG to web-root/core/2.0.0
+Update web-root/core/package-list.json
+This is a milestone release - publish v2.0.0 to web-root/core
+Clear out existing content
+Delete CodeSystem-dk-marital-status.xlsx
+Delete tbl_bck01111.png
+Delete StructureDefinition-dk-core-cvr-identifier.csv
+Delete StructureDefinition-dk-core-kombit-org-identifier.xlsx
+Delete StructureDefinition-dk-core-practitioner.ttl
+Delete icon_page_n_i.gif
+Delete ValueSet-sor-organization-type.xlsx
+Delete ValueSet-dk-core-MunicipalityCodes.ttl
+Delete tbl_bck0111.png
+Delete tbl_bck11100.png
+Delete tbl_bck03510.png
+Delete StructureDefinition-dk-core-municipalityCodes-definitions.html
+Delete StructureDefinition-dk-core-gln-identifier.xlsx
+Delete StructureDefinition-dk-core-kombit-org-identifier.profile.ttl.html
+Delete Patient-john.xml
+Delete tbl_bck1025.png
+Delete CodeSystem-DkCoreProfessionGroupCodes.json.html
+Delete icon-administration.png
+Delete tbl_bck150.png
+Delete tbl_bck0000111101.png
+Delete StructureDefinition-dk-core-RegionalSubDivisionCodes.profile.ttl.html
+Delete Patient-283.ttl.html
+Delete CodeSystem-dk-core-municipality-codes-greenland.ttl.html
+Delete searchform.html
+Delete tbl_bck1001010.png
+Delete CodeSystem-consent-state-codes-dk-supplement.change.history.html
+Delete tbl_bck0515.png
+Delete CodeSystem-dk-core-regional-subdivision-codes.json
+Delete StructureDefinition-dk-core-authorization-identifier.ttl
+Delete CodeSystem-dk-marital-status.ttl
+Delete StructureDefinition-dk-core-sor-identifier.xlsx
+Delete Patient-john.xml.html
+Delete tbl_bck1011001.png
+Delete tbl_bck1111000.png
+Delete tbl_bck1011000.png
+Delete tbl_bck1352.png
+Delete CodeSystem-publication-status-dk-supplement.xml
+Delete validator-hl7.fhir.dk.core.pack
+Delete CodeSystem-dk-core-cpr-identifier-system.change.history.html
+Delete StructureDefinition-dk-core-sor-identifier.html
+Delete icon-qi-help.png
+Delete icon_profile.png
+Delete tbl_bck025.png
+Delete tbl_bck0500.png
+Delete tbl_bck1150.png
+Delete StructureDefinition-dk-core-gln-identifier.xml
+Delete tbl_bck0000111100.png
+Delete CodeSystem-DkCoreProfessionGroupCodes.xml.html
+Delete Patient-283.xml
+Delete StructureDefinition-dk-core-municipalityCodes.sch
+Delete tbl_bck151.png
+Delete icon_page_n.gif
+Delete icon-fhir-16.png
+Delete external.png
+Delete definitions.json.zip
+Delete StructureDefinition-dk-core-organization.sch
+Delete StructureDefinition-dk-core-gln-identifier.html
+Delete tbl_bck11101.png
+Delete StructureDefinition-dk-core-cpr-identifier.profile.xml.html
+Delete ValueSet-sor-organization-type.html
+Delete tbl_bck0110.png
+Delete Organization-b08997bb-4476-4dd0-84dd-2e297f809364.json
+Delete tbl_bck1540.png
+Delete StructureDefinition-dk-core-sor-identifier.ttl
+Delete ValueSet-sor-organization-type.xml
+Delete StructureDefinition-dk-core-authorization-identifier.profile.json.html
+Delete artifacts.html
+Delete CodeSystem-dk-marital-status.html
+Delete StructureDefinition-dk-core-kombit-org-identifier.html
+Delete ValueSet-DkCoreProfessionGroupValueSet.json
+Delete tbl_bck01110.png
+Delete tbl_bck0350250.png
+Delete tbl_bck0250250.png
+Delete Patient-ukendt.html
+Delete icon_reference.png
+Delete tbl_bck03513.png
+Delete CodeSystem-address-use-dk-supplement.change.history.html
+Delete tbl_bck100000.png
+Delete tbl_bck000000.png
+Delete StructureDefinition-dk-core-patient.csv
+Delete CodeSystem-DkCoreProfessionGroupCodes.ttl.html
+Delete tbl_bck000011110000.png
+Delete tbl_vjoin-closed.png
+Delete tbl_bck1152.png
+Delete StructureDefinition-dk-core-patient.profile.json.html
+Delete StructureDefinition-dk-core-cvr-identifier.html
+Delete tbl_bck0111101.png
+Delete StructureDefinition-dk-core-cpr-identifier.profile.ttl.html
+Delete tbl_bck033.png
+Delete StructureDefinition-dk-core-practitioner.html
+Delete StructureDefinition-dk-core-organization-examples.html
+Delete prism.js
+Delete tbl_bck00001111110.png
+Delete tbl_bck00001111111.png
+Delete StructureDefinition-dk-core-kombit-org-identifier.profile.json.html
+Delete StructureDefinition-dk-core-practitioner.xlsx
+Delete mustsupport.png
+Delete StructureDefinition-dk-core-cvr-identifier.xlsx
+Delete StructureDefinition-dk-core-kombit-org-identifier.profile.xml.html
+Delete Patient-ukendt.xml
+Delete tbl_bck0111100.png
+Delete tbl_bck035125.png
+Delete tbl_bck03300.png
+Delete tbl_bck152.png
+Delete tbl_bck000001.png
+Delete CodeSystem-dk-core-municipality-codes-greenland.xml.html
+Delete Patient-283.xml.html
+Delete tbl_bck03512.png
+Delete StructureDefinition-dk-core-RegionalSubDivisionCodes.profile.xml.html
+Delete CodeSystem-address-use-dk-supplement.ttl
+Delete NamingSystem-cpr.xml
+Delete StructureDefinition-dk-core-kombit-org-identifier-mappings.html
+Delete tbl_bck1543.png
+Delete CodeSystem-DkCoreProfessionGroupCodes.ttl
+Delete usage-stats.json
+Delete guidance.html
+Delete tbl_bck110010.png
+Delete icon-toc.png
+Delete Patient-john.ttl.html
+Delete ValueSet-dk-core-RegionalSubDivisionCodes.xml
+Delete tbl_bck110000.png
+Delete ValueSet-dk-core-MunicipalityCodes.xml.html
+Delete icon_page_n_o.gif
+Delete Practitioner-HanneSocialraadgiver.json.html
+Delete tbl_bck000011.png
+Delete CodeSystem-days-of-week-dk-supplement.change.history.html
+Delete icon-fhir-128.png
+Delete CodeSystem-consent-state-codes-dk-supplement.ttl.html
+Delete tbl_bck03310.png
+Delete ValueSet-dk-core-cpr-identifier-system.json
+Delete StructureDefinition-dk-core-kombit-org-identifier-examples.html
+Delete tbl_bck0111110.png
+Delete ValueSet-dk-marital-status.json
+Delete tbl_vjoin.png
+Delete .DS_Store
+Delete tbl_bck00001111101.png
+Delete tbl_vjoin_end_slice.png
+Delete tbl_bck025125.png
+Delete icon-q-text.png
+Delete tbl_bck00001111100.png
+Delete CodeSystem-address-type-dk-supplement.xml.html
+Delete icon-q-display.png
+Delete NamingSystem-cpr.change.history.html
+Delete icon-fhir-1024.png
+Delete NamingSystem-sor.html
+Delete package.tgz
+Delete Organization-CenterForDiabetesTeamKvalitet.change.history.html
+Delete tbl_bck0512.png
+Delete Practitioner-AbrahamLaege.html
+Delete ValueSet-dk-core-RegionalSubDivisionCodes.json.html
+Delete StructureDefinition-dk-core-kombit-org-identifier.csv
+Delete tbl_bck000011110010.png
+Delete CodeSystem-address-use-dk-supplement.json
+Delete tbl_bck143.png
+Delete tbl_bck03503.png
+Delete StructureDefinition-dk-core-organization-mappings.html
+Delete CodeSystem-dk-core-regional-subdivision-codes.json.html
+Delete CodeSystem-dk-core-municipality-codes.ttl
+Delete tbl_bck100010.png
+Delete tbl_bck000010.png
+Delete Organization-CenterForDiabetesTeamHjerte.xml
+Delete tbl_bck1552.png
+Delete ImplementationGuide-hl7.fhir.dk.core.ttl
+Delete icon_element.gif
+Delete tbl_bck0350240.png
+Delete tbl_bck0250240.png
+Delete CodeSystem-dk-core-municipality-codes.ttl.html
+Delete CodeSystem-address-type-dk-supplement.ttl.html
+Delete tbl_bck01100.png
+Delete tbl_bck0100.png
+Delete tbl_bck1550.png
+Delete CodeSystem-episode-of-care-status-dk-supplement.json.html
+Delete CodeSystem-address-use-dk-supplement.json.html
+Delete StructureDefinition-dk-core-municipalityCodes.html
+Delete tbl_bck11111.png
+Delete tbl_bck155.png
+Delete tbl_bck141.png
+Delete StructureDefinition-dk-core-sor-identifier.profile.json.html
+Delete tbl_bck0000111110.png
+Delete Patient-Confidential.json.html
+Delete Organization-CenterForDiabetesTeamKvalitet.json.html
+Delete tbl_bck035.png
+Delete tbl_bck1001001.png
+Delete tbl_bck0510.png
+Delete tbl_bck1140.png
+Delete ValueSet-dk-core-MunicipalityCodes.html
+Delete CodeSystem-DkCoreProfessionGroupCodes.json
+Delete Organization-CenterForDiabetes.json
+Delete StructureDefinition-dk-core-sor-identifier-definitions.html
+Delete tbl_bck1111010.png
+Delete tbl_bck1011010.png
+Delete CodeSystem-dk-core-municipality-codes.xml.html
+Delete tbl_bck1424.png
+Delete icon-resource.png
+Delete CodeSystem-dk-core-municipality-codes-greenland.json.html
+Delete icon_text.png
+Delete CodeSystem-address-type-dk-supplement.json
+Delete StructureDefinition-dk-core-gln-identifier.sch
+Delete examples.xml.zip
+Delete ValueSet-dk-core-MunicipalityCodes.ttl.html
+Delete StructureDefinition-dk-core-RegionalSubDivisionCodes.ttl
+Delete toc.html
+Delete Organization-CenterForDiabetesTeamKvalitet.xml
+Delete tbl_vjoin_slicer.png
+Delete Organization-CenterForDiabetesTeamDiabetes.json
+Delete ValueSet-dk-core-MunicipalityCodes.xlsx
+Delete icon_bundle.png
+Delete tbl_bck1001000.png
+Delete tbl_bck0505.png
+Delete tbl_vjoin_end_slicer-closed.png
+Delete tbl_bck0000111111.png
+Delete qa.json
+Delete CodeSystem-consent-state-codes-dk-supplement.xml.html
+Delete tbl_bck140.png
+Delete icon-qi-subject.png
+Delete StructureDefinition-dk-core-patient.json
+Delete tbl_bck11110.png
+Delete Patient-Confidential.change.history.html
+Delete tbl_bck03500.png
+Delete StructureDefinition-dk-core-municipalityCodes.xlsx
+Delete StructureDefinition-dk-core-organization.xml
+Delete icon_extension_complex.png
+Delete lock.png
+Delete tbl_bck0101.png
+Delete Organization-CenterForDiabetes.ttl
+Delete tbl_bck01101.png
+Delete ValueSet-dk-marital-status.ttl
+Delete StructureDefinition-dk-core-municipalityCodes.xml
+Delete tbl_vjoin_slicer-closed.png
+Delete tbl_bck011110000.png
+Delete tbl_bck1250.png
+Delete Patient-mogensen.change.history.html
+Delete tbl_bck00001111010.png
+Delete CodeSystem-dk-core-municipality-codes.xlsx
+Delete StructureDefinition-dk-core-authorization-identifier.profile.xml.html
+Delete Patient-ukendt.ttl.html
+Delete tbl_bck133.png
+Delete icon-fhir-48.png
+Delete icon-q-date.png
+Delete tbl_bck100100.png
+Delete ValueSet-dk-marital-status.xml.html
+Delete tbl_bck000100.png
+Delete CodeSystem-care-team-status-dk-supplement.xml.html
+Delete Patient-mogensen.html
+Delete StructureDefinition-dk-core-authorization-identifier.html
+Delete CodeSystem-days-of-week-dk-supplement.html
+Delete NamingSystem-sor.json.html
+Delete tbl_bck1330.png
+Delete Patient-283.json
+Delete CodeSystem-dk-core-municipality-codes.change.history.html
+Delete icon-not-selected.png
+Delete CodeSystem-episode-of-care-status-dk-supplement.xlsx
+Delete Practitioner-HanneSocialraadgiver.html
+Delete CodeSystem-episode-of-care-status-dk-supplement.html
+Delete icon_choice.gif
+Delete StructureDefinition-dk-core-authorization-identifier.xlsx
+Delete tbl_bck010110.png
+Delete Patient-ukendt.ttl
+Delete tbl_bck110110.png
+Delete StructureDefinition-dk-core-cpr-identifier.json
+Delete CodeSystem-days-of-week-dk-supplement.xlsx
+Delete ValueSet-dk-core-RegionalSubDivisionCodes.json
+Delete tbl_vjoin_end_slicer-open.png
+Delete link.svg
+Delete tbl_bck100101.png
+Delete icon_modifier_extension_simple.png
+Delete NamingSystem-cpr.xml.html
+Delete ValueSet-dk-marital-status.change.history.html
+Delete tbl_bck035025.png
+Delete CodeSystem-DkCoreProfessionGroupCodes.xml
+Delete CodeSystem-days-of-week-dk-supplement.json.html
+Delete NamingSystem-cpr.ttl
+Delete tbl_bck10240.png
+Delete CodeSystem-dk-core-municipality-codes.html
+Delete CodeSystem-address-use-dk-supplement.xml
+Delete Patient-john.change.history.html
+Delete CodeSystem-dk-core-cpr-identifier-system.json
+Delete StructureDefinition-dk-core-authorization-identifier.profile.history.html
+Delete tbl_bck1251.png
+Delete icon-qi-vertical.png
+Delete CodeSystem-episode-of-care-status-dk-supplement.xml.html
+Delete Patient-john.ttl
+Delete StructureDefinition-dk-core-organization.json
+Delete StructureDefinition-dk-core-organization-definitions.html
+Delete ValueSet-sor-organization-type.change.history.html
+Delete tbl_bck000011110.png
+Delete ValueSet-dk-core-MunicipalityCodes.xml
+Delete tbl_bck0000111001.png
+Delete StructureDefinition-dk-core-practitioner.xml
+Delete tbl_bck0000111110110.png
+Delete StructureDefinition-lpr3-Identifier.xlsx
+Delete NamingSystem-cpr.ttl.html
+Delete StructureDefinition-dk-core-practitioner-mappings.html
+Delete tbl_bck124.png
+Delete tbl_bck130.png
+Delete tbl_bck11000.png
+Delete tbl_bck03410.png
+Delete CodeSystem-request-status-dk-supplement.html
+Delete CodeSystem-dk-marital-status.xml
+Delete StructureDefinition-dk-core-authorization-identifier.xml
+Delete tbl_bck1125.png
+Delete tbl_bck050.png
+Delete tbl_bck01011.png
+Delete tbl_vjoin_end_slicer.png
+Delete full-ig.zip
+Delete tbl_bck0011.png
+Delete CodeSystem-episode-of-care-status-dk-supplement.ttl.html
+Delete Practitioner-AbrahamLaege.json.html
+Delete Organization-b08997bb-4476-4dd0-84dd-2e297f809364.change.history.html
+Delete tbl_bck0010.png
+Delete StructureDefinition-dk-core-gln-identifier.ttl
+Delete StructureDefinition-dk-core-RegionalSubDivisionCodes.sch
+Delete icon-qi-hidden.png
+Delete tbl_bck01010.png
+Delete StructureDefinition-dk-core-cpr-identifier-mappings.html
+Delete icon-warning.png
+Delete tbl_bck051.png
+Delete CodeSystem-request-status-dk-supplement.xlsx
+Delete CodeSystem-publication-status-dk-supplement.ttl
+Delete StructureDefinition-dk-core-cpr-identifier.csv
+Delete tbl_vjoin_slice-open.png
+Delete tbl_bck11001.png
+Delete StructureDefinition-dk-core-authorization-identifier.profile.ttl.html
+Delete Patient-ukendt.xml.html
+Delete ValueSet-dk-marital-status.ttl.html
+Delete tbl_bck125.png
+Delete StructureDefinition-lpr3-Identifier.html
+Delete tbl_bck0400.png
+Delete tbl_bck1050.png
+Delete validator.pack
+Delete ValueSet-sor-organization-type.ttl
+Delete tbl_bck0000111000.png
+Delete StructureDefinition-dk-core-sor-identifier.xml
+Delete tbl_vjoin-open.png
+Delete CodeSystem-care-team-status-dk-supplement.ttl.html
+Delete icon_datatype.gif
+Delete tbl_bck000011111.png
+Delete tbl_vjoin_end_slice-open.png
+Delete tbl_bck1011100.png
+Delete CodeSystem-consent-state-codes-dk-supplement.json
+Delete tbl_bck1252.png
+Delete StructureDefinition-dk-core-RegionalSubDivisionCodes.profile.json.html
+Delete StructureDefinition-dk-core-gln-identifier.profile.json.html
+Delete Patient-283.ttl
+Delete CodeSystem-dk-core-regional-subdivision-codes.ttl.html
+Delete StructureDefinition-dk-core-cvr-identifier.profile.xml.html
+Delete CodeSystem-publication-status-dk-supplement.change.history.html
+Delete CodeSystem-publication-status-dk-supplement.ttl.html
+Delete StructureDefinition-dk-core-practitioner.sch
+Delete tbl_bck1011110.png
+Delete StructureDefinition-dk-core-cpr-identifier-examples.html
+Delete icon_slice.png
+Delete tbl_bck0000111010.png
+Delete StructureDefinition-dk-core-patient-definitions.html
+Delete CodeSystem-publication-status-dk-supplement.xlsx
+Delete icon-directory.gif
+Delete tbl_bck000011101.png
+Delete icon-q-datetime.png
+Delete tbl_bck0410.png
+Delete StructureDefinition-dk-core-cvr-identifier.profile.history.html
+Delete tbl_bck1040.png
+Delete CodeSystem-dk-marital-status.xml.html
+Delete Organization-CenterForDiabetesTeamHjerte.json.html
+Delete CodeSystem-address-type-dk-supplement.json.html
+Delete tbl_bck11011.png
+Delete tbl_bck041.png
+Delete Patient-john.html
+Delete StructureDefinition-dk-core-authorization-identifier.sch
+Delete tbl_bck01000.png
+Delete icon-q-item.png
+Delete Organization-b08997bb-4476-4dd0-84dd-2e297f809364.ttl.html
+Delete tbl_bck0000.png
+Delete StructureDefinition-lpr3-Identifier.profile.xml.html
+Delete StructureDefinition-dk-core-RegionalSubDivisionCodes-mappings.html
+Delete StructureDefinition-dk-core-practitioner-examples.html
+Delete tbl_bck0001.png
+Delete CodeSystem-administrative-gender-supplement.json
+Delete StructureDefinition-dk-core-practitioner.profile.xml.html
+Delete ValueSet-dk-core-cpr-identifier-system.xml.html
+Delete Organization-CenterForDiabetesTeamKvalitet.ttl
+Delete tbl_bck040.png
+Delete StructureDefinition-dk-core-RegionalSubDivisionCodes.xml
+Delete tbl_bck11010.png
+Delete ValueSet-sor-organization-type.json.html
+Delete tbl_bck03400.png
+Delete StructureDefinition-dk-core-RegionalSubDivisionCodes.json
+Delete tbl_bck0000111110100.png
+Delete StructureDefinition-dk-core-municipalityCodes.ttl
+Delete tbl_bck134.png
+Delete ValueSet-dk-marital-status.xml
+Delete tbl_bck120.png
+Delete tbl_bck000011100.png
+Delete CodeSystem-publication-status-dk-supplement.html
+Delete Organization-CenterForDiabetes.xml
+Delete StructureDefinition-dk-core-organization.ttl
+Delete tbl_bck0000111011.png
+Delete Patient-john.json.html
+Delete CodeSystem-address-type-dk-supplement.change.history.html
+Delete icon_primitive.png
+Delete StructureDefinition-dk-core-sor-identifier.sch
+Delete definitions.xml.zip
+Delete ValueSet-DkCoreProfessionGroupValueSet.ttl.html
+Delete tbl_vjoin_end_slice-closed.png
+Delete CodeSystem-dk-core-municipality-codes-greenland.json
+Delete icon-q-open-choice.png
+Delete target.png
+Delete tbl_bck00001111001.png
+Delete ValueSet-dk-core-cpr-identifier-system.ttl.html
+Delete icon_q_root.gif
+Delete tbl_bck1241.png
+Delete StructureDefinition-dk-core-practitioner.profile.ttl.html
+Delete tbl_bck10250.png
+Delete extensions.html
+Delete CodeSystem-care-team-status-dk-supplement.html
+Delete icon-q-quantity.png
+Delete ValueSet-dk-core-RegionalSubDivisionCodes.ttl
+Delete Organization-CenterForDiabetesTeamHjerte.change.history.html
+Delete NamingSystem-cpr.html
+Delete StructureDefinition-dk-core-gln-identifier-definitions.html
+Delete tbl_vjoin_end-open.png
+Delete Patient-mogensen.json.html
+Delete tbl_bck010100.png
+Delete CodeSystem-consent-state-codes-dk-supplement.json.html
+Delete tbl_bck110100.png
+Delete icon-qi-security.bmp
+Delete Organization-CenterForDiabetesTeamKvalitet.html
+Delete ValueSet-DkCoreProfessionGroupValueSet.xml.html
+Delete StructureDefinition-dk-core-patient.profile.history.html
+Delete tbl_vjoin_end-closed.png
+Delete StructureDefinition-dk-core-cvr-identifier.profile.ttl.html
+Delete tbl_bck1320.png
+Delete CodeSystem-dk-core-regional-subdivision-codes.xml.html
+Delete CodeSystem-publication-status-dk-supplement.xml.html
+Delete Patient-Confidential.html
+Delete icon-include.png
+Delete CodeSystem-dk-marital-status.ttl.html
+Delete StructureDefinition-lpr3-Identifier.csv
+Delete tbl_bck100110.png
+Delete ValueSet-dk-core-cpr-identifier-system.change.history.html
+Delete tbl_bck000110.png
+Delete icon-fhir-64.png
+Delete icon_reuse.png
+Delete CodeSystem-care-team-status-dk-supplement.xlsx
+Delete Organization-CenterForDiabetesTeamHjerte.html
+Delete ImplementationGuide-hl7.fhir.dk.core.xml
+Delete tbl_bck1240.png
+Delete CodeSystem-care-team-status-dk-supplement.change.history.html
+Delete tbl_bck025025.png
+Delete Organization-CenterForDiabetesTeamHjerte.ttl
+Delete CodeSystem-dk-core-municipality-codes.xml
+Delete icon_extension_simple.png
+Delete StructureDefinition-lpr3-Identifier.profile.ttl.html
+Delete icon-q-decimal.png
+Delete tbl_bck011110010.png
+Delete Organization-b08997bb-4476-4dd0-84dd-2e297f809364.xml.html
+Delete CodeSystem-dk-core-municipality-codes-greenland.ttl
+Delete Patient-Confidential.json
+Delete StructureDefinition-dk-core-cpr-identifier.xml
+Delete icon-q-boolean.png
+Delete downloads.html
+Delete tbl_bck025000.png
+Delete Patient-Confidential.xml.html
+Delete tbl_bck0110100.png
+Delete icon_page.gif
+Delete CodeSystem-dk-core-regional-subdivision-codes.change.history.html
+Delete tbl_bck1.png
+Delete Practitioner-HanneSocialraadgiver.change.history.html
+Delete Organization-CenterForDiabetes.change.history.html
+Delete qa.xml
+Delete tbl_bck0000111.png
+Delete tbl_bck112.png
+Delete tbl_bck0351.png
+Delete tbl_bck111010.png
+Delete tbl_bck011010.png
+Delete StructureDefinition-dk-core-patient-examples.html
+Delete ValueSet-dk-core-cpr-identifier-system.ttl
+Delete icon-qi-optional.png
+Delete tbl_vjoin_slice-closed.png
+Delete Organization-CenterForDiabetesTeamKvalitet.xml.html
+Delete Organization-b08997bb-4476-4dd0-84dd-2e297f809364.xml
+Delete CodeSystem-dk-core-cpr-identifier-system.xml
+Delete tbl_bck001001.png
+Delete Practitioner-AbrahamLaege.xml.html
+Delete tbl_bck02512.png
+Delete CodeSystem-consent-state-codes-dk-supplement.xml
+Delete StructureDefinition-dk-core-sor-identifier.csv
+Delete examples.json.zip
+Delete Organization-CenterForDiabetesTeamHjerte.json
+Delete ValueSet-DkCoreProfessionGroupValueSet.json.html
+Delete CodeSystem-care-team-status-dk-supplement.json
+Delete StructureDefinition-dk-core-cvr-identifier.ttl
+Delete StructureDefinition-dk-core-practitioner.csv
+Delete CodeSystem-address-use-dk-supplement.ttl.html
+Delete tbl_bck02513.png
+Delete tbl_bck001000.png
+Delete icon-qi-observation.png
+Delete CodeSystem-administrative-gender-supplement.xml
+Delete tbl_bck101000.png
+Delete tbl_vjoin_slicer-open.png
+Delete tbl_bck0251250.png
+Delete CodeSystem-dk-core-regional-subdivision-codes.xml
+Delete Patient-mogensen.ttl
+Delete tbl_bck0351250.png
+Delete CodeSystem-dk-marital-status.json.html
+Delete tbl_bck011011.png
+Delete tbl_bck113.png
+Delete tbl_bck0000110.png
+Delete tbl_bck0350.png
+Delete tbl_bck10010000.png
+Delete tbl_bck00001110110.png
+Delete Patient-ukendt.change.history.html
+Delete tbl_bck10110000.png
+Delete tbl_bck0.png
+Delete Organization-CenterForDiabetesTeamKvalitet.json
+Delete tbl_bck00001001.png
+Delete StructureDefinition-dk-core-authorization-identifier.csv
+Delete StructureDefinition-dk-core-organization.profile.xml.html
+Delete NamingSystem-cpr.json
+Delete tbl_bck000011111000.png
+Delete NamingSystem-sor.ttl
+Delete definitions.ttl.zip
+Delete icon-page.png
+Delete tbl_bck1500.png
+Delete CodeSystem-address-use-dk-supplement.xml.html
+Delete StructureDefinition-dk-core-RegionalSubDivisionCodes.html
+Delete StructureDefinition-dk-core-practitioner.profile.json.html
+Delete profiles.html
+Delete CodeSystem-administrative-gender-supplement.html
+Delete tbl_bck105.png
+Delete tbl_bck01101100.png
+Delete StructureDefinition-lpr3-Identifier.sch
+Delete tbl_bck111.png
+Delete Patient-Confidential.xml
+Delete tbl_vline_slice.png
+Delete tbl_bck05040.png
+Delete tbl_bck0251252.png
+Delete tbl_bck00110.png
+Delete tbl_bck12500.png
+Delete tbl_bck0351252.png
+Delete CodeSystem-dk-core-cpr-identifier-system.json.html
+Delete icon_fixed.gif
+Delete tbl_bck1110.png
+Delete StructureDefinition-dk-core-gln-identifier.profile.history.html
+Delete CodeSystem-dk-core-municipality-codes-greenland.html
+Delete StructureDefinition-dk-core-authorization-identifier-mappings.html
+Delete expansions.json
+Delete StructureDefinition-dk-core-organization.profile.ttl.html
+Delete tbl_bck10101.png
+Delete qa.min.html
+Delete CodeSystem-publication-status-dk-supplement.json
+Delete StructureDefinition-dk-core-cvr-identifier.profile.json.html
+Delete ValueSet-DkCoreProfessionGroupValueSet.ttl
+Delete Patient-Confidential.ttl.html
+Delete tbl_bck02510.png
+Delete modifier.png
+Delete tbl_bck10100.png
+Delete Practitioner-HanneSocialraadgiver.ttl
+Delete tbl_bck15050.png
+Delete CodeSystem-dk-core-municipality-codes-greenland.xlsx
+Delete icon-q-integer.png
+Delete tbl_bck1111.png
+Delete StructureDefinition-dk-core-patient.ttl
+Delete CodeSystem-administrative-gender-supplement.change.history.html
+Delete tbl_bck110.png
+Delete StructureDefinition-dk-core-authorization-identifier-definitions.html
+Delete StructureDefinition-dk-core-cvr-identifier-mappings.html
+Delete CodeSystem-administrative-gender-supplement.xlsx
+Delete Organization-CenterForDiabetesTeamKvalitet.ttl.html
+Delete Practitioner-AbrahamLaege.ttl.html
+Delete tbl_bck1515.png
+Delete StructureDefinition-dk-core-RegionalSubDivisionCodes.xlsx
+Delete CodeSystem-days-of-week-dk-supplement.xml
+Delete tbl_bck000010010.png
+Delete Patient-john.json
+Delete icon-dictionary.png
+Delete StructureDefinition-lpr3-Identifier.xml
+Delete tbl_bck000010000.png
+Delete tbl_bck1505.png
+Delete tbl_bck100.png
+Delete StructureDefinition-dk-core-kombit-org-identifier.ttl
+Delete ValueSet-sor-organization-type.xml.html
+Delete CodeSystem-episode-of-care-status-dk-supplement.ttl
+Delete tbl_bck12511.png
+Delete tbl_bck00101.png
+Delete icon-list.gif
+Delete CodeSystem-consent-state-codes-dk-supplement.html
+Delete StructureDefinition-dk-core-patient.profile.ttl.html
+Delete tbl_bck1101.png
+Delete StructureDefinition-dk-core-organization.xlsx
+Delete fhir-table-scripts.js
+Delete StructureDefinition-lpr3-Identifier.json
+Delete tbl_bck02500.png
+Delete tbl_bck10110.png
+Delete qa-tx.html
+Delete tbl_bck15040.png
+Delete StructureDefinition-dk-core-cvr-identifier-examples.html
+Delete icon_extension.png
+Delete icon-implementation.png
+Delete icon_entry_blue.png
+Delete StructureDefinition-lpr3-Identifier.profile.json.html
+Delete Practitioner-AbrahamLaege.xml
+Delete icon-q-coding.png
+Delete StructureDefinition-dk-core-cpr-identifier.profile.history.html
+Delete tbl_bck10111.png
+Delete tbl_bck02501.png
+Delete tbl_bck1100.png
+Delete StructureDefinition-dk-core-organization.html
+Delete StructureDefinition-dk-core-gln-identifier.profile.xml.html
+Delete tbl_bck05050.png
+Delete tbl_bck00100.png
+Delete CodeSystem-consent-state-codes-dk-supplement.xlsx
+Delete tbl_bck12510.png
+Delete tbl_bck115.png
+Delete icon-documentation.png
+Delete tbl_bck01101110.png
+Delete tbl_bck101.png
+Delete CodeSystem-request-status-dk-supplement.ttl.html
+Delete icon-selected.png
+Delete icon-example.png
+Delete CodeSystem-request-status-dk-supplement.ttl
+Delete tbl_bck1510.png
+Delete StructureDefinition-dk-core-authorization-identifier-examples.html
+Delete prism.css
+Delete CodeSystem-request-status-dk-supplement.json
+Delete icon-qi-readonly.png
+Delete StructureDefinition-dk-core-municipalityCodes.profile.json.html
+Delete Patient-mogensen.ttl.html
+Delete tbl_bck000011111010.png
+Delete canonicals.json
+Delete ValueSet-dk-core-RegionalSubDivisionCodes.html
+Delete StructureDefinition-dk-core-organization.profile.json.html
+Delete tbl_bck0110111.png
+Delete StructureDefinition-dk-core-RegionalSubDivisionCodes.csv
+Delete StructureDefinition-lpr3-Identifier.profile.history.html
+Delete tbl_bck1512.png
+Delete StructureDefinition-dk-core-sor-identifier.profile.history.html
+Delete tbl_vjoin_slice.png
+Delete Patient-283.change.history.html
+Delete icon-q-group.png
+Delete Practitioner-HanneSocialraadgiver.json
+Delete ValueSet-dk-core-MunicipalityCodes.change.history.html
+Delete CodeSystem-episode-of-care-status-dk-supplement.json
+Delete Organization-CenterForDiabetesTeamDiabetes.xml
+Delete CodeSystem-episode-of-care-status-dk-supplement.change.history.html
+Delete tbl_bck103.png
+Delete tbl_bck0000100.png
+Delete tbl_bck0340.png
+Delete tbl_bck10010010.png
+Delete tbl_bck00001110100.png
+Delete StructureDefinition-dk-core-cpr-identifier.html
+Delete StructureDefinition-dk-core-gln-identifier.profile.ttl.html
+Delete tbl_bck10110010.png
+Delete StructureDefinition-dk-core-cpr-identifier.sch
+Delete CodeSystem-dk-core-cpr-identifier-system.html
+Delete tbl_bck0251240.png
+Delete tbl_bck0351240.png
+Delete tbl_bck12512.png
+Delete tbl_bck011001.png
+Delete CodeSystem-request-status-dk-supplement.xml.html
+Delete Organization-CenterForDiabetesTeamDiabetes.json.html
+Delete CodeSystem-care-team-status-dk-supplement.xml
+Delete tbl_bck02503.png
+Delete tbl_bck001010.png
+Delete StructureDefinition-dk-core-practitioner-definitions.html
+Delete tbl_bck101010.png
+Delete CodeSystem-dk-core-municipality-codes.json
+Delete Patient-mogensen.xml.html
+Delete CodeSystem-care-team-status-dk-supplement.json.html
+Delete CodeSystem-administrative-gender-supplement.json.html
+Delete StructureDefinition-lpr3-Identifier-definitions.html
+Delete icon-qi-instructions.png
+Delete icon-clinical.png
+Delete tbl_bck111000.png
+Delete ValueSet-sor-organization-type.ttl.html
+Delete CodeSystem-dk-core-cpr-identifier-system.xlsx
+Delete tbl_bck011000.png
+Delete CodeSystem-address-type-dk-supplement.xml
+Delete StructureDefinition-dk-core-authorization-identifier.json
+Delete tbl_bck0000101.png
+Delete StructureDefinition-dk-core-cpr-identifier.xlsx
+Delete tbl_bck0341.png
+Delete CodeSystem-days-of-week-dk-supplement.json
+Delete StructureDefinition-dk-core-patient.profile.xml.html
+Delete Patient-283.html
+Delete tbl_bck00001010.png
+Delete tbl_bck025010.png
+Delete ValueSet-dk-core-RegionalSubDivisionCodes.change.history.html
+Delete tbl_bck0110110.png
+Delete NamingSystem-cpr.json.html
+Delete ValueSet-dk-core-RegionalSubDivisionCodes.xlsx
+Delete qa-dep.html
+Delete StructureDefinition-dk-core-cvr-identifier-definitions.html
+Delete StructureDefinition-dk-core-patient-mappings.html
+Delete Patient-mogensen.json
+Delete tbl_bck000011111011.png
+Delete package.manifest.json
+Delete Patient-ukendt.json.html
+Delete Organization-b08997bb-4476-4dd0-84dd-2e297f809364.json.html
+Delete tbl_bck10001.png
+Delete Organization-CenterForDiabetesTeamDiabetes.html
+Delete StructureDefinition-dk-core-practitioner.profile.history.html
+Delete CodeSystem-request-status-dk-supplement.json.html
+Delete StructureDefinition-dk-core-RegionalSubDivisionCodes-definitions.html
+Delete tbl_bck05140.png
+Delete tbl_bck00010.png
+Delete CodeSystem-address-type-dk-supplement.html
+Delete tbl_bck12400.png
+Delete CodeSystem-DkCoreProfessionGroupCodes.xlsx
+Delete tbl_bck1010.png
+Delete StructureDefinition-dk-core-kombit-org-identifier.sch
+Delete expansions.xml
+Delete icon-q-choice.png
+Delete ImplementationGuide-hl7.fhir.dk.core.json
+Delete CodeSystem-days-of-week-dk-supplement.ttl.html
+Delete tbl_bck011.png
+Delete StructureDefinition-dk-core-municipalityCodes.profile.ttl.html
+Delete StructureDefinition-dk-core-kombit-org-identifier-definitions.html
+Delete qa.html
+Delete ValueSet-DkCoreProfessionGroupValueSet.change.history.html
+Delete tbl_bck1400.png
+Delete Organization-CenterForDiabetesTeamDiabetes.ttl.html
+Delete StructureDefinition-dk-core-patient.html
+Delete Patient-Confidential.ttl
+Delete CodeSystem-request-status-dk-supplement.change.history.html
+Delete NamingSystem-sor.xml.html
+Delete StructureDefinition-dk-core-patient.xlsx
+Delete StructureDefinition-dk-core-municipalityCodes.json
+Delete qa.txt
+Delete tbl_bck01111010.png
+Delete tbl_bck03.png
+Delete StructureDefinition-dk-core-patient.xml
+Delete CodeSystem-dk-core-municipality-codes-greenland.change.history.html
+Delete StructureDefinition-dk-core-RegionalSubDivisionCodes.profile.history.html
+Delete tbl_bck010.png
+Delete placeholder.txt
+Delete icon-q-attachment.png
+Delete Practitioner-HanneSocialraadgiver.xml
+Delete tbl_spacer.png
+Delete StructureDefinition-dk-core-organization.profile.history.html
+Delete Organization-CenterForDiabetes.xml.html
+Delete ValueSet-DkCoreProfessionGroupValueSet.xml
+Delete CodeSystem-DkCoreProfessionGroupCodes.html
+Delete Organization-CenterForDiabetes.html
+Delete CodeSystem-days-of-week-dk-supplement.ttl
+Delete tbl_bck1011.png
+Delete tbl_bck00011.png
+Delete icon-fhir-720.png
+Delete CodeSystem-address-type-dk-supplement.xlsx
+Delete icon-q-reference.png
+Delete tbl_bck02410.png
+Delete tbl_bck10000.png
+Delete tbl_bck15150.png
+Delete ValueSet-dk-core-MunicipalityCodes.json
+Delete ValueSet-dk-marital-status.json.html
+Delete tbl_bck101101.png
+Delete ValueSet-dk-core-cpr-identifier-system.xlsx
+Delete tbl_bck15152.png
+Delete NamingSystem-sor.json
+Delete NamingSystem-sor.ttl.html
+Delete Practitioner-AbrahamLaege.json
+Delete ValueSet-dk-marital-status.xlsx
+Delete StructureDefinition-dk-core-gln-identifier.csv
+Delete icon_page_n_c.gif
+Delete tbl_bck111110.png
+Delete StructureDefinition-dk-core-cpr-identifier-definitions.html
+Delete tbl_bck011110.png
+Delete StructureDefinition-dk-core-cpr-identifier.ttl
+Delete Organization-CenterForDiabetes.ttl.html
+Delete CodeSystem-dk-core-municipality-codes-greenland.xml
+Delete tbl_bck0331.png
+Delete summary.png
+Delete CodeSystem-consent-state-codes-dk-supplement.ttl
+Delete tbl_bck0251.png
+Delete tbl_bck012.png
+Delete icon-q-url.png
+Delete CodeSystem-dk-core-cpr-identifier-system.ttl
+Delete tbl_bck11240.png
+Delete Organization-b08997bb-4476-4dd0-84dd-2e297f809364.ttl
+Delete CodeSystem-address-use-dk-supplement.html
+Delete ValueSet-dk-core-cpr-identifier-system.xml
+Delete tbl_bck125100.png
+Delete tbl_bck01.png
+Delete StructureDefinition-lpr3-Identifier-examples.html
+Delete tbl_bck15.png
+Delete icon-error.gif
+Delete tbl_bck00001100.png
+Delete tbl_bck0010000.png
+Delete StructureDefinition-dk-core-sor-identifier-examples.html
+Delete tbl_bck0110000.png
+Delete tbl_bck14.png
+Delete CodeSystem-dk-core-regional-subdivision-codes.ttl
+Delete tbl_bck00.png
+Delete Patient-mogensen.xml
+Delete ValueSet-dk-core-cpr-identifier-system.json.html
+Delete comparison-v2.0.0
+Delete tbl_bck000011111100.png
+Delete examples.ttl.zip
+Delete CodeSystem-address-use-dk-supplement.xlsx
+Delete CodeSystem-administrative-gender-supplement.ttl
+Delete tbl_bck0250.png
+Delete tbl_bck0000010.png
+Delete NamingSystem-sor.change.history.html
+Delete tbl_bck00001110010.png
+Delete StructureDefinition-dk-core-cvr-identifier.xml
+Delete tbl_bck0330.png
+Delete NamingSystem-sor.xml
+Delete Organization-CenterForDiabetes.json.html
+Delete icon-infrastructure.png
+Delete StructureDefinition-dk-core-municipalityCodes.profile.xml.html
+Delete icon-qi-security.png
+Delete CodeSystem-days-of-week-dk-supplement.xml.html
+Delete tbl_bck011111.png
+Delete ValueSet-dk-core-cpr-identifier-system.html
+Delete ValueSet-dk-marital-status.html
+Delete StructureDefinition-dk-core-gln-identifier-mappings.html
+Delete tbl_bck101100.png
+Delete Organization-CenterForDiabetesTeamDiabetes.xml.html
+Delete StructureDefinition-dk-core-cpr-identifier.profile.json.html
+Delete assets
+Delete tbl_bck101110.png
+Delete Organization-CenterForDiabetesTeamDiabetes.ttl
+Delete CodeSystem-DkCoreProfessionGroupCodes.change.history.html
+Delete tbl_bck05152.png
+Delete tbl_bck111101.png
+Delete tbl_bck0320.png
+Delete Organization-CenterForDiabetesTeamHjerte.ttl.html
+Delete icon-fhir-24.png
+Delete StructureDefinition-dk-core-gln-identifier-examples.html
+Delete CodeSystem-dk-marital-status.change.history.html
+Delete StructureDefinition-dk-core-municipalityCodes.csv
+Delete icon-q-string.png
+Delete tbl_bck0240.png
+Delete tbl_bck0000000.png
+Delete tbl_bck00001110000.png
+Delete CodeSystem-dk-core-cpr-identifier-system.ttl.html
+Delete StructureDefinition-dk-core-organization.csv
+Delete CodeSystem-care-team-status-dk-supplement.ttl
+Delete ValueSet-dk-core-MunicipalityCodes.json.html
+Delete tbl_bck000011111110.png
+Delete Patient-283.json.html
+Delete expansions.xml.zip
+Delete tbl_bck04.png
+Delete tbl_bck00001111.png
+Delete tbl_bck10.png
+Delete tbl_bck125110.png
+Delete tbl_bck11.png
+Delete Practitioner-HanneSocialraadgiver.xml.html
+Delete tbl_bck05.png
+Delete tbl_bck00001110.png
+Delete StructureDefinition-dk-core-cvr-identifier.sch
+Delete tbl_bck0010010.png
+Delete tbl_bck0110010.png
+Delete StructureDefinition-dk-core-kombit-org-identifier.profile.history.html
+Delete tbl_vline.png
+Delete StructureDefinition-dk-core-sor-identifier.profile.xml.html
+Delete tbl_bck11250.png
+Delete CodeSystem-administrative-gender-supplement.xml.html
+Delete excels.zip
+Delete tbl_bck0241.png
+Delete StructureDefinition-dk-core-municipalityCodes.profile.history.html
+Delete Patient-ukendt.json
+Delete StructureDefinition-dk-core-practitioner.json
+Delete icon_slice_item.png
+Delete StructureDefinition-dk-core-sor-identifier-mappings.html
+Delete ValueSet-dk-core-RegionalSubDivisionCodes.ttl.html
+Delete StructureDefinition-lpr3-Identifier-mappings.html
+Delete expansions.json.zip
+Delete tbl_bck111100.png
+Delete tbl_bck011100.png
+Delete icon_page_n_p.gif
+Delete CodeSystem-publication-status-dk-supplement.json.html
+Delete tbl_vjoin_end.png
+Delete StructureDefinition-dk-core-cvr-identifier.json
+Delete tbl_bck101111.png
+Delete CodeSystem-dk-core-municipality-codes.json.html
+Delete CodeSystem-address-type-dk-supplement.ttl
+Delete tbl_bck02400.png
+Delete CodeSystem-episode-of-care-status-dk-supplement.xml
+Delete terminology.html
+Delete tbl_bck10010.png
+Delete tbl_bck15140.png
+Delete Practitioner-HanneSocialraadgiver.ttl.html
+Delete Practitioner-AbrahamLaege.change.history.html
+Delete StructureDefinition-dk-core-kombit-org-identifier.xml
+Delete StructureDefinition-dk-core-sor-identifier.profile.ttl.html
+Delete icon_resource.png
+Delete tbl_bck00001.png
+Delete tbl_bck15424.png
+Delete CodeSystem-administrative-gender-supplement.ttl.html
+Delete CodeSystem-dk-core-regional-subdivision-codes.xlsx
+Delete qa-hta.html
+Delete StructureDefinition-lpr3-Identifier.ttl
+Delete tbl_bck1001.png
+Delete StructureDefinition-dk-core-sor-identifier.json
+Delete ValueSet-sor-organization-type.json
+Delete ValueSet-dk-core-RegionalSubDivisionCodes.xml.html
+Delete icon_modifier_extension_complex.png
+Delete Organization-b08997bb-4476-4dd0-84dd-2e297f809364.html
+Delete tbl_bck000.png
+Delete CodeSystem-dk-marital-status.json
+Delete StructureDefinition-dk-core-municipalityCodes-mappings.html
+Delete ValueSet-DkCoreProfessionGroupValueSet.html
+Delete StructureDefinition-dk-core-kombit-org-identifier.json
+Delete tbl_bck11252.png
+Delete tbl_bck13.png
+Delete StructureDefinition-dk-core-gln-identifier.json
+Delete tbl_blank.png
+Delete tbl_bck1410.png
+Delete tbl_bck12.png
+Delete icon-q-time.png
+Delete tbl_bck01111001.png
+Delete ValueSet-DkCoreProfessionGroupValueSet.xlsx
+Delete icon-qi-horizontal.png
+Delete tbl_bck001.png
+Delete Organization-CenterForDiabetesTeamHjerte.xml.html
+Delete StructureDefinition-dk-core-patient.sch
+Delete tbl_vline_slicer.png
+Delete csvs.zip
+Delete Practitioner-AbrahamLaege.ttl
+Delete tbl_bck1000.png
+Delete icon-fhir-32.png
+Delete CodeSystem-dk-core-regional-subdivision-codes.html
+Delete Organization-CenterForDiabetesTeamDiabetes.change.history.html
+Delete CodeSystem-dk-core-cpr-identifier-system.xml.html
+Delete tbl_bck05150.png
+Delete icon_q_item.png
+Delete tbl_bck00000.png
+Delete tbl_bck12410.png
+Delete CodeSystem-request-status-dk-supplement.xml
+Delete observations-summary.xlsx
+Delete tbl_bck10011.png
+Cleaned current release of /Users/jkiddo/work/igs/web-root/core: deleted 931 files
+Copy to directory
+Rebuild everything for web-root/core/package-list.json
+Update publication at '/Users/jkiddo/work/igs/web-root' with filter 'web-root/core'
+Update the website at /Users/jkiddo/work/igs/web-root
+The public URL is at http://hl7.dk/fhir/core
+Update the public registry at /Users/jkiddo/work/igs/fhir-ig-list.json
+The server type is APACHE
+The filter is 'web-root/core'
+looking for IGs in /Users/jkiddo/work/igs/web-root
+found 1 IGs to update:
+ - /Users/jkiddo/work/igs/web-root/core
+Update /Users/jkiddo/work/igs/web-root/core for http://hl7.dk/fhir/core
+-- ignoring current build entry
+-- updating version 2.0.0 in '/Users/jkiddo/work/igs/web-root/2.0.0'
+-- updating version 1.1.0 in '/Users/jkiddo/work/igs/web-root/1.1.0'
+History Note: /Users/jkiddo/work/igs/web-root/dist-hist does not exist, so ignoring it
+History Note: /Users/jkiddo/work/igs/web-root/assets-hist does not exist, so ignoring it
+: ok
+==================== 
+Processing Feeds for /Users/jkiddo/work/igs/web-root
+Build Feed. 
+  rootFolder=/Users/jkiddo/work/igs/web-root
+  packageFile=/Users/jkiddo/work/igs/web-root/package-feed.xml
+  publicationFile=/Users/jkiddo/work/igs/web-root/publication-feed.xml
+  orgName=HL7 Denmark
+  thisUrl=http://hl7.dk/fhir/core/package-feed.xml
+  rootUrl=http://hl7.dk/fhir/core
+Load from /Users/jkiddo/work/igs/web-root/core/package-list.json
+Save Package feed to /Users/jkiddo/work/igs/web-root/package-feed.xml
+Ignoring package hl7.fhir.dk.core#2.0.0 as the actual package could not be found at /Users/jkiddo/work/igs/web-root/2.0.0
+Save publication feed to /Users/jkiddo/work/igs/web-root/publication-feed.xml
+Known status codes: [release]
+Finished Processing Feeds
+==================== 
+hl7.fhir.dk.core (http://hl7.dk/fhir/core): HL7 FHIR Implementation Guide: DK Core @ http://build.fhir.org/ig/hl7dk/dk-core
+  release: Release 2.0.0/4.0.1 @ http://hl7.dk/fhir/core/2.0.0
+  release: Release 1.1.0/4.0.1 @ http://hl7.dk/fhir/core/1.1.0
+hl7.fhir.dk.core (http://hl7.dk/fhir/core): HL7 FHIR Implementation Guide: DK Core @ http://build.fhir.org/ig/hl7dk/dk-core
+  release: Release 2.0.0/4.0.1 @ http://hl7.dk/fhir/core/2.0.0
+  release: Release 1.1.0/4.0.1 @ http://hl7.dk/fhir/core/1.1.0
+Finished Publishing

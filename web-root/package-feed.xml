@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:fhir="http://hl7.org/fhir/feed" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>HL7 Denmark FHIR Packages</title>
+    <description>New Packages published by HL7 Denmark></description>
+    <link>http://hl7.dk/fhir/core/package-feed.xml</link>
+    <generator>HL7, Inc FHIR Publication tooling</generator>
+    <lastBuildDate>Wed, 14 Sep 2022 01:38:44 GMT</lastBuildDate>
+    <atom:link href="http://hl7.dk/fhir/core/package-feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 14 Sep 2022 01:38:44</pubDate>
+    <language>en></language>
+    <ttl>600</ttl>
+    <item>
+      <title>hl7.fhir.dk.core#1.1.0</title>
+      <description>A FHIR Implementation Guide for the Danish common needs across healthcare sectors (built Sat, Dec 18, 2021 23:15+0100+01:00)</description>
+      <link>http://hl7.dk/fhir/core/1.1.0/package.tgz</link>
+      <guid isPermaLink="true">http://hl7.dk/fhir/core/1.1.0/package.tgz</guid>
+      <dc:creator>HL7 Denmark</dc:creator>
+      <fhir:version>4.0.1</fhir:version>
+      <fhir:kind>IG</fhir:kind>
+      <pubDate>Sat, 18 Dec 2021 12:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,36 @@
+﻿{
+  "package-id": "hl7.fhir.dk.core",
+  "title": "HL7 FHIR Implementation Guide: DK Core",
+  "canonical": "http://hl7.dk/fhir/core",
+  "introduction": "A FHIR Implementation Guide for the Danish common needs across healthcare sectors",
+  "category": "National Core",
+  "list": [
+    {
+      "version": "current",
+      "desc": "Continuous Integration Build",
+      "path": "http://build.fhir.org/ig/hl7dk/dk-core",
+      "status": "ci-build"
+    },
+    {
+      "version": "2.0.0",
+      "desc": "Release version 2.0.0 contains three DKcore profiles. In DkCorePatient the cardinality of the extensions dk-core-RegionalSubDivisionCodes and dk-core-municipalityCodes is changed from 0..* to 0..1 and the MustSupport flags are removed from Patient.id and Patient.name. DkCoreCprIdentifier.system is changed from a ValueSet to a fixed value, where both solutions contain the same OID. In DkCoreOrganization the binding strength of the ValueSet attached to the element Organization.type is changed from required to preferred.",
+      "status": "release",
+      "sequence": "Release",
+      "history_template_repo": "https://github.com/hl7dk/fhir-ig-history-template.git",
+      "path": "http://hl7.dk/fhir/core/2.0.0",
+      "fhirversion": "4.0.1",
+      "date": "2022-09-14",
+      "current": true
+    },
+    {
+      "version": "1.1.0",
+      "status": "release",
+      "date": "2021-12-18",
+      "desc": "Release version 1.1.0 contains three DK core profiles. The Danish Core Practitioner and Organization profiles are both introduced in this release, and the Danish Core Patient profile has been updated with some minor changes. These updates include 1) change of the minimum allowed length from 15 to 11 units in the element for the SOR-identifier Patient.generalPractitioner:referencesSORUnit.identifier, 2) removal of the fixed value \u0027NNDNK\u0027 in the element Patient.identifier.type.coding.code, and 3) change of the invariant expression for validation of a CPR.",
+      "sequence": "Release",
+      "history_template_repo": "https://github.com/hl7dk/fhir-ig-history-template",
+      "path": "http://hl7.dk/fhir/core/1.1.0",
+      "fhirversion": "4.0.1"
+    }
+  ]
+}

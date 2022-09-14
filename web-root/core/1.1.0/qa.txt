@@ -1,0 +1,112 @@
+﻿DKCore : Validation Results
+=========================================
+
+err = 0, warn = 3, info = 4
+IG Publisher Version: 1.1.92
+Generated Sat Dec 18 23:16:10 CET 2021. FHIR version 4.0.1 for hl7.fhir.dk.core#1.1.0 (canonical = http://hl7.dk/fhir/core)
+ Build Errors : 0 / 0 / 0
+ /Users/jkv/hl7.fhir.dk.core/fsh-generated/resources/ImplementationGuide-hl7.fhir.dk.core : 0 / 0 / 1
+ /Users/jkv/hl7.fhir.dk.core/fsh-generated/resources/codesystem-DkCoreProfessionGroupCodes : 0 / 0 / 1
+ /Users/jkv/hl7.fhir.dk.core/fsh-generated/resources/codesystem-administrative-gender-supplement : 0 / 0 / 2
+ /Users/jkv/hl7.fhir.dk.core/fsh-generated/resources/codesystem-dk-core-cpr-identifier-system : 0 / 0 / 1
+ /Users/jkv/hl7.fhir.dk.core/fsh-generated/resources/codesystem-dk-core-municipality-codes : 0 / 0 / 1
+ /Users/jkv/hl7.fhir.dk.core/fsh-generated/resources/codesystem-dk-core-municipality-codes-greenland : 0 / 0 / 1
+ /Users/jkv/hl7.fhir.dk.core/fsh-generated/resources/codesystem-dk-core-regional-subdivision-codes : 0 / 0 / 1
+ /Users/jkv/hl7.fhir.dk.core/fsh-generated/resources/codesystem-dk-marital-status : 0 / 1 / 1
+ /Users/jkv/hl7.fhir.dk.core/fsh-generated/resources/namingsystem-cpr : 0 / 0 / 1
+ /Users/jkv/hl7.fhir.dk.core/fsh-generated/resources/namingsystem-sor : 0 / 0 / 1
+ /Users/jkv/hl7.fhir.dk.core/fsh-generated/resources/organization-CenterForDiabetes : 0 / 0 / 1
+ /Users/jkv/hl7.fhir.dk.core/fsh-generated/resources/organization-CenterForDiabetesTeamDiabetes : 0 / 0 / 1
+ /Users/jkv/hl7.fhir.dk.core/fsh-generated/resources/organization-CenterForDiabetesTeamHjerte : 0 / 0 / 1
+ /Users/jkv/hl7.fhir.dk.core/fsh-generated/resources/organization-CenterForDiabetesTeamKvalitet : 0 / 0 / 1
+ /Users/jkv/hl7.fhir.dk.core/fsh-generated/resources/organization-b08997bb-4476-4dd0-84dd-2e297f809364 : 0 / 0 / 1
+ /Users/jkv/hl7.fhir.dk.core/fsh-generated/resources/patient-283 : 0 / 0 / 1
+ /Users/jkv/hl7.fhir.dk.core/fsh-generated/resources/patient-Confidential : 0 / 0 / 1
+ /Users/jkv/hl7.fhir.dk.core/fsh-generated/resources/patient-john : 0 / 0 / 2
+ /Users/jkv/hl7.fhir.dk.core/fsh-generated/resources/patient-mogensen : 0 / 0 / 1
+ /Users/jkv/hl7.fhir.dk.core/fsh-generated/resources/patient-ukendt : 0 / 0 / 3
+ /Users/jkv/hl7.fhir.dk.core/fsh-generated/resources/practitioner-AbrahamLaege : 0 / 0 / 1
+ /Users/jkv/hl7.fhir.dk.core/fsh-generated/resources/practitioner-HanneSocialraadgiver : 0 / 0 / 2
+ /Users/jkv/hl7.fhir.dk.core/fsh-generated/resources/structuredefinition-dk-core-RegionalSubDivisionCodes : 0 / 0 / 1
+ /Users/jkv/hl7.fhir.dk.core/fsh-generated/resources/structuredefinition-dk-core-authorization-identifier : 0 / 0 / 1
+ /Users/jkv/hl7.fhir.dk.core/fsh-generated/resources/structuredefinition-dk-core-cpr-identifier : 0 / 0 / 1
+ /Users/jkv/hl7.fhir.dk.core/fsh-generated/resources/structuredefinition-dk-core-cvr-identifier : 0 / 0 / 1
+ /Users/jkv/hl7.fhir.dk.core/fsh-generated/resources/structuredefinition-dk-core-gln-identifier : 0 / 0 / 1
+ /Users/jkv/hl7.fhir.dk.core/fsh-generated/resources/structuredefinition-dk-core-kombit-org-identifier : 0 / 0 / 1
+ /Users/jkv/hl7.fhir.dk.core/fsh-generated/resources/structuredefinition-dk-core-municipalityCodes : 0 / 0 / 1
+ /Users/jkv/hl7.fhir.dk.core/fsh-generated/resources/structuredefinition-dk-core-organization : 0 / 0 / 1
+ /Users/jkv/hl7.fhir.dk.core/fsh-generated/resources/structuredefinition-dk-core-patient : 0 / 0 / 1
+ /Users/jkv/hl7.fhir.dk.core/fsh-generated/resources/structuredefinition-dk-core-practitioner : 0 / 0 / 1
+ /Users/jkv/hl7.fhir.dk.core/fsh-generated/resources/structuredefinition-dk-core-sor-identifier : 0 / 0 / 1
+ /Users/jkv/hl7.fhir.dk.core/fsh-generated/resources/structuredefinition-lpr3-Identifier : 0 / 1 / 1
+ /Users/jkv/hl7.fhir.dk.core/fsh-generated/resources/valueset-DkCoreProfessionGroupValueSet : 0 / 0 / 1
+ /Users/jkv/hl7.fhir.dk.core/fsh-generated/resources/valueset-dk-core-MunicipalityCodes : 0 / 0 / 1
+ /Users/jkv/hl7.fhir.dk.core/fsh-generated/resources/valueset-dk-core-RegionalSubDivisionCodes : 0 / 0 / 1
+ /Users/jkv/hl7.fhir.dk.core/fsh-generated/resources/valueset-dk-core-cpr-identifier-system : 0 / 0 / 1
+ /Users/jkv/hl7.fhir.dk.core/fsh-generated/resources/valueset-dk-marital-status : 0 / 1 / 1
+ /Users/jkv/hl7.fhir.dk.core/input/resources/address-type-dk-supplement : 0 / 0 / 1
+ /Users/jkv/hl7.fhir.dk.core/input/resources/address-use-dk-supplement : 0 / 0 / 1
+ /Users/jkv/hl7.fhir.dk.core/input/resources/care-team-status-dk-supplement : 0 / 0 / 1
+ /Users/jkv/hl7.fhir.dk.core/input/resources/consent-state-codes-dk-supplement : 0 / 0 / 1
+ /Users/jkv/hl7.fhir.dk.core/input/resources/days-of-week-dk-supplement : 0 / 0 / 1
+ /Users/jkv/hl7.fhir.dk.core/input/resources/episode-of-care-status-dk-supplement : 0 / 0 / 1
+ /Users/jkv/hl7.fhir.dk.core/input/resources/publication-status-dk-supplement : 0 / 0 / 1
+ /Users/jkv/hl7.fhir.dk.core/input/resources/request-status-dk-supplement : 0 / 0 / 1
+ /Users/jkv/hl7.fhir.dk.core/input/resources/sor-organization-type : 0 / 0 / 1
+</table>
+== n/a ==
+== fsh-generated/resources/ImplementationGuide-hl7.fhir.dk.core.json ==
+== fsh-generated/resources/CodeSystem-DkCoreProfessionGroupCodes.json ==
+== fsh-generated/resources/CodeSystem-administrative-gender-supplement.json ==
+== fsh-generated/resources/CodeSystem-dk-core-cpr-identifier-system.json ==
+== fsh-generated/resources/CodeSystem-dk-core-municipality-codes.json ==
+== fsh-generated/resources/CodeSystem-dk-core-municipality-codes-greenland.json ==
+== fsh-generated/resources/CodeSystem-dk-core-regional-subdivision-codes.json ==
+== fsh-generated/resources/CodeSystem-dk-marital-status.json ==
+WARNING: CodeSystem/dk-marital-status: CodeSystem: csd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+== fsh-generated/resources/NamingSystem-cpr.json ==
+== fsh-generated/resources/NamingSystem-sor.json ==
+== fsh-generated/resources/Organization-CenterForDiabetes.json ==
+== fsh-generated/resources/Organization-CenterForDiabetesTeamDiabetes.json ==
+== fsh-generated/resources/Organization-CenterForDiabetesTeamHjerte.json ==
+== fsh-generated/resources/Organization-CenterForDiabetesTeamKvalitet.json ==
+== fsh-generated/resources/Organization-b08997bb-4476-4dd0-84dd-2e297f809364.json ==
+== fsh-generated/resources/Patient-283.json ==
+== fsh-generated/resources/Patient-Confidential.json ==
+== fsh-generated/resources/Patient-john.json ==
+INFORMATION: Patient/john: Patient.name[1]: This element does not match any known slice defined in the profile http://hl7.dk/fhir/core/StructureDefinition/dk-core-patient
+== fsh-generated/resources/Patient-mogensen.json ==
+== fsh-generated/resources/Patient-ukendt.json ==
+INFORMATION: Patient/ukendt: Patient.identifier[0]: This element does not match any known slice defined in the profile http://hl7.dk/fhir/core/StructureDefinition/dk-core-patient
+INFORMATION: Patient/ukendt: Patient.name[0]: This element does not match any known slice defined in the profile http://hl7.dk/fhir/core/StructureDefinition/dk-core-patient
+== fsh-generated/resources/Practitioner-AbrahamLaege.json ==
+== fsh-generated/resources/Practitioner-HanneSocialraadgiver.json ==
+INFORMATION: Practitioner/HanneSocialraadgiver: Practitioner.qualification[0]: This element does not match any known slice defined in the profile http://hl7.dk/fhir/core/StructureDefinition/dk-core-practitioner
+== fsh-generated/resources/StructureDefinition-dk-core-RegionalSubDivisionCodes.json ==
+== fsh-generated/resources/StructureDefinition-dk-core-authorization-identifier.json ==
+== fsh-generated/resources/StructureDefinition-dk-core-cpr-identifier.json ==
+== fsh-generated/resources/StructureDefinition-dk-core-cvr-identifier.json ==
+== fsh-generated/resources/StructureDefinition-dk-core-gln-identifier.json ==
+== fsh-generated/resources/StructureDefinition-dk-core-kombit-org-identifier.json ==
+== fsh-generated/resources/StructureDefinition-dk-core-municipalityCodes.json ==
+== fsh-generated/resources/StructureDefinition-dk-core-organization.json ==
+== fsh-generated/resources/StructureDefinition-dk-core-patient.json ==
+== fsh-generated/resources/StructureDefinition-dk-core-practitioner.json ==
+== fsh-generated/resources/StructureDefinition-dk-core-sor-identifier.json ==
+== fsh-generated/resources/StructureDefinition-lpr3-Identifier.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.dk/fhir/core/StructureDefinition/lpr3-Identifier'): The Implementation Guide contains no examples for this data type profile
+== fsh-generated/resources/ValueSet-DkCoreProfessionGroupValueSet.json ==
+== fsh-generated/resources/ValueSet-dk-core-MunicipalityCodes.json ==
+== fsh-generated/resources/ValueSet-dk-core-RegionalSubDivisionCodes.json ==
+== fsh-generated/resources/ValueSet-dk-core-cpr-identifier-system.json ==
+== fsh-generated/resources/ValueSet-dk-marital-status.json ==
+WARNING: ValueSet/dk-marital-status: ValueSet: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+== input/resources/address-type-dk-supplement.xml ==
+== input/resources/address-use-dk-supplement.xml ==
+== input/resources/care-team-status-dk-supplement.xml ==
+== input/resources/consent-state-codes-dk-supplement.xml ==
+== input/resources/days-of-week-dk-supplement.xml ==
+== input/resources/episode-of-care-status-dk-supplement.xml ==
+== input/resources/publication-status-dk-supplement.xml ==
+== input/resources/request-status-dk-supplement.xml ==
+== input/resources/sor-organization-type.json ==

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patient xmlns="http://hl7.org/fhir">
+  <id value="john"/>
+  <meta>
+    <profile value="http://hl7.dk/fhir/core/StructureDefinition/dk-core-patient"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "john" </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-dk-core-patient.html">Danish Core Patient Profile</a></p></div><p><b>identifier</b>: id: 1112640001</p><p><b>name</b>: John Christian Meyerhofen (OFFICIAL), Johnny </p><p><b>gender</b>: male</p><p><b>birthDate</b>: 1964-12-11</p><p><b>generalPractitioner</b>: <span>: Charlottenlund Lægehus</span></p></div>
+  </text>
+  <identifier>
+    <system value="urn:oid:1.2.208.176.1.2"/>
+    <value value="1112640001"/>
+  </identifier>
+  <name>
+    <use value="official"/>
+    <family value="Meyerhofen"/>
+    <given value="John"/>
+    <given value="Christian"/>
+    <prefix value="Mr"/>
+  </name>
+  <name>
+    <use value="usual"/>
+    <given value="Johnny"/>
+  </name>
+  <gender value="male"/>
+  <birthDate value="1964-12-11"/>
+  <generalPractitioner>
+    <identifier>
+      <system value="urn:oid:1.2.208.176.1.1"/>
+      <value value="487341000016005"/>
+    </identifier>
+    <display value="Charlottenlund Lægehus"/>
+  </generalPractitioner>
+</Patient>

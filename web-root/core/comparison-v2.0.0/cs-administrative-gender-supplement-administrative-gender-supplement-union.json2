@@ -1,0 +1,44 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "856d37e0-8dbf-43d7-8b0c-7b7ca230256e-11",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/856d37e0-8dbf-43d7-8b0c-7b7ca230256e-11",
+  "name" : "UnionAdministrativeGenderDkSupplementAndAdministrativeGenderDkSupplement",
+  "title" : "Union of null And null",
+  "status" : "draft",
+  "date" : "2022-09-14T15:03:36+02:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "DK",
+      "display" : "Denmark"
+    }]
+  }],
+  "concept" : [{
+    "code" : "male",
+    "designation" : [{
+      "language" : "da",
+      "value" : "Mand"
+    }]
+  },
+  {
+    "code" : "female",
+    "designation" : [{
+      "language" : "da",
+      "value" : "Kvinde"
+    }]
+  },
+  {
+    "code" : "other",
+    "designation" : [{
+      "language" : "da",
+      "value" : "Andet"
+    }]
+  },
+  {
+    "code" : "unknown",
+    "designation" : [{
+      "language" : "da",
+      "value" : "Ukendt"
+    }]
+  }]
+}
